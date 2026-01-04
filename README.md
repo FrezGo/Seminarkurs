@@ -1,1 +1,1 @@
-# FrezGo.github.io
+Seminarkurs
