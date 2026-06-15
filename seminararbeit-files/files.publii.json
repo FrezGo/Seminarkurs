@@ -1,0 +1,397 @@
+[
+    {
+        "path": "404.html",
+        "type": "file",
+        "md5": "7bed19ed6ca300bcaeb76a750584471a"
+    },
+    {
+        "path": "assets",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/css",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/css/editor.css",
+        "type": "file",
+        "md5": "ab1a2743577e8ff738ce7d0ca4b488f0"
+    },
+    {
+        "path": "/assets/css/main.css",
+        "type": "file",
+        "md5": "35fd307090bfa558db84489a3760dbb6"
+    },
+    {
+        "path": "/assets/css/style.css",
+        "type": "file",
+        "md5": "28a5eb87a5143db8fe2c1caca7e38a51"
+    },
+    {
+        "path": "assets/dynamic",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/dynamic/fonts",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/dynamic/fonts/lora",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/dynamic/fonts/lora/lora-italic.woff2",
+        "type": "file",
+        "md5": "3c7b8cdf57cbe9f0915d00a7a777b1c5"
+    },
+    {
+        "path": "/assets/dynamic/fonts/lora/lora.woff2",
+        "type": "file",
+        "md5": "a28e469aa49b5e09da64e36cbcb183b8"
+    },
+    {
+        "path": "assets/js",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/js/scripts.js",
+        "type": "file",
+        "md5": "e658a220102adccfeaa589b3acad96da"
+    },
+    {
+        "path": "/assets/js/scripts.min.js",
+        "type": "file",
+        "md5": "628f9b14187b480516b6c7f8be1e7585"
+    },
+    {
+        "path": "/assets/js/svg-fix.js",
+        "type": "file",
+        "md5": "7c0d2bb7276904b382e80bf2d85e8a96"
+    },
+    {
+        "path": "/assets/js/svg-map.js",
+        "type": "file",
+        "md5": "ab8b0bd0bf06ea275e9529fd15a76765"
+    },
+    {
+        "path": "assets/svg",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/svg/svg-map.svg",
+        "type": "file",
+        "md5": "9561258c027307c78952ab47359b1e2a"
+    },
+    {
+        "path": "ausstellung-cookies.html",
+        "type": "file",
+        "md5": "4d7f5ef4c9be2c73cfb50a802610f7d7"
+    },
+    {
+        "path": "ausstellung-dark-patterns.html",
+        "type": "file",
+        "md5": "7019db7ab90c5e95ea0ee1d3b93fd418"
+    },
+    {
+        "path": "ausstellung-digitale-souveraenitaet.html",
+        "type": "file",
+        "md5": "843311e5f4593a00f839b855c41fc802"
+    },
+    {
+        "path": "ausstellung-online-fingerabdruck.html",
+        "type": "file",
+        "md5": "2b0efc6c012d2027f9f14ee91dd5b445"
+    },
+    {
+        "path": "austellung-agbs.html",
+        "type": "file",
+        "md5": "4b74c446c7a83f6fdfdc9fc49746b686"
+    },
+    {
+        "path": "austellung-daten-wert.html",
+        "type": "file",
+        "md5": "35b6ad10769f20406d65125e9f48680a"
+    },
+    {
+        "path": "authors",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "authors/ben-bechtold",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/authors/ben-bechtold/index.html",
+        "type": "file",
+        "md5": "2a47f5febfc729478c19096df98935f6"
+    },
+    {
+        "path": "authors/frederick-berns",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/authors/frederick-berns/index.html",
+        "type": "file",
+        "md5": "e3b0ea15f3e9969f4cca4c2579909bcf"
+    },
+    {
+        "path": "index.html",
+        "type": "file",
+        "md5": "8d9f57eebd7065114344f3a4907e262e"
+    },
+    {
+        "path": "media",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/4",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/4/Bild-Raum-1-Cookies.png",
+        "type": "file",
+        "md5": "cecf62141a19a7a5d330ae642741d81b"
+    },
+    {
+        "path": "/media/posts/4/Bild-Raum-2-Cookies.png",
+        "type": "file",
+        "md5": "cfc0b350ceccc15e2e734243490d39ab"
+    },
+    {
+        "path": "media/posts/4/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/4/responsive/Bild-Raum-1-Cookies-lg.png",
+        "type": "file",
+        "md5": "c959dddd24957a00f408690203e9ae24"
+    },
+    {
+        "path": "/media/posts/4/responsive/Bild-Raum-1-Cookies-md.png",
+        "type": "file",
+        "md5": "e471fd9528faa5cc41ad76e233dea702"
+    },
+    {
+        "path": "/media/posts/4/responsive/Bild-Raum-1-Cookies-sm.png",
+        "type": "file",
+        "md5": "4537e86185e794fbb20bf09599741bec"
+    },
+    {
+        "path": "/media/posts/4/responsive/Bild-Raum-1-Cookies-xl.png",
+        "type": "file",
+        "md5": "c959dddd24957a00f408690203e9ae24"
+    },
+    {
+        "path": "/media/posts/4/responsive/Bild-Raum-1-Cookies-xs.png",
+        "type": "file",
+        "md5": "c9960e2a1e3d80bc684ba12181db409c"
+    },
+    {
+        "path": "/media/posts/4/responsive/Bild-Raum-2-Cookies-lg.png",
+        "type": "file",
+        "md5": "af589e7e54ca14454c9a46de1c0b03a1"
+    },
+    {
+        "path": "/media/posts/4/responsive/Bild-Raum-2-Cookies-md.png",
+        "type": "file",
+        "md5": "609a026bb9d8860141e926810a2d787b"
+    },
+    {
+        "path": "/media/posts/4/responsive/Bild-Raum-2-Cookies-sm.png",
+        "type": "file",
+        "md5": "ef5d6d44901844e2d7cab019da15f88c"
+    },
+    {
+        "path": "/media/posts/4/responsive/Bild-Raum-2-Cookies-xl.png",
+        "type": "file",
+        "md5": "af589e7e54ca14454c9a46de1c0b03a1"
+    },
+    {
+        "path": "/media/posts/4/responsive/Bild-Raum-2-Cookies-xs.png",
+        "type": "file",
+        "md5": "640f73c0332f60deff5f92ea03ff15bd"
+    },
+    {
+        "path": "media/posts/5",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/5/Bild-Raum-DarkPatterns.png",
+        "type": "file",
+        "md5": "1a981da40da49d3d85fc8abc5fc0c8eb"
+    },
+    {
+        "path": "media/posts/5/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/5/responsive/Bild-Raum-DarkPatterns-lg.png",
+        "type": "file",
+        "md5": "5f1a48538be488d70253717a711606af"
+    },
+    {
+        "path": "/media/posts/5/responsive/Bild-Raum-DarkPatterns-md.png",
+        "type": "file",
+        "md5": "334984c883505fdec623a4e31804138c"
+    },
+    {
+        "path": "/media/posts/5/responsive/Bild-Raum-DarkPatterns-sm.png",
+        "type": "file",
+        "md5": "7ade487172b3276e5fe4e58c268b535f"
+    },
+    {
+        "path": "/media/posts/5/responsive/Bild-Raum-DarkPatterns-xl.png",
+        "type": "file",
+        "md5": "86d7ae1c47275ef0f90989a0de70019b"
+    },
+    {
+        "path": "/media/posts/5/responsive/Bild-Raum-DarkPatterns-xs.png",
+        "type": "file",
+        "md5": "31fa3217fd7fb6e0fdedc5284a5b1949"
+    },
+    {
+        "path": "media/posts/8",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/8/Bild-Ben-Austellung-1-2.png",
+        "type": "file",
+        "md5": "f44807537e2f1c7e1fc5ccc1e902e2ca"
+    },
+    {
+        "path": "/media/posts/8/Bild-Ben-Austellung-1.png",
+        "type": "file",
+        "md5": "3225cfbe1a0ec15a404dd1be47c019a9"
+    },
+    {
+        "path": "media/posts/8/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/8/responsive/Bild-Ben-Austellung-1-2-lg.png",
+        "type": "file",
+        "md5": "3b6054b120fc2764e96bc48f18defc31"
+    },
+    {
+        "path": "/media/posts/8/responsive/Bild-Ben-Austellung-1-2-md.png",
+        "type": "file",
+        "md5": "3b6054b120fc2764e96bc48f18defc31"
+    },
+    {
+        "path": "/media/posts/8/responsive/Bild-Ben-Austellung-1-2-sm.png",
+        "type": "file",
+        "md5": "05a2bb6458f9b12dae86ae2eb376b2da"
+    },
+    {
+        "path": "/media/posts/8/responsive/Bild-Ben-Austellung-1-2-xl.png",
+        "type": "file",
+        "md5": "3b6054b120fc2764e96bc48f18defc31"
+    },
+    {
+        "path": "/media/posts/8/responsive/Bild-Ben-Austellung-1-2-xs.png",
+        "type": "file",
+        "md5": "9398767747d1e7311573023e0e29565a"
+    },
+    {
+        "path": "/media/posts/8/responsive/Bild-Ben-Austellung-1-lg.png",
+        "type": "file",
+        "md5": "f3154d2bf9dc9cefe626d46d8cfc4368"
+    },
+    {
+        "path": "/media/posts/8/responsive/Bild-Ben-Austellung-1-md.png",
+        "type": "file",
+        "md5": "f3154d2bf9dc9cefe626d46d8cfc4368"
+    },
+    {
+        "path": "/media/posts/8/responsive/Bild-Ben-Austellung-1-sm.png",
+        "type": "file",
+        "md5": "f3154d2bf9dc9cefe626d46d8cfc4368"
+    },
+    {
+        "path": "/media/posts/8/responsive/Bild-Ben-Austellung-1-xl.png",
+        "type": "file",
+        "md5": "f3154d2bf9dc9cefe626d46d8cfc4368"
+    },
+    {
+        "path": "/media/posts/8/responsive/Bild-Ben-Austellung-1-xs.png",
+        "type": "file",
+        "md5": "f3154d2bf9dc9cefe626d46d8cfc4368"
+    },
+    {
+        "path": "media/posts/9",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/9/Bild-Ben-Austellung-2-Statista.png",
+        "type": "file",
+        "md5": "ef26e402415925984882481d5fcd3851"
+    },
+    {
+        "path": "media/posts/9/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/9/responsive/Bild-Ben-Austellung-2-Statista-lg.png",
+        "type": "file",
+        "md5": "bda9f29820ae4dfe535ff29e4542db98"
+    },
+    {
+        "path": "/media/posts/9/responsive/Bild-Ben-Austellung-2-Statista-md.png",
+        "type": "file",
+        "md5": "bda9f29820ae4dfe535ff29e4542db98"
+    },
+    {
+        "path": "/media/posts/9/responsive/Bild-Ben-Austellung-2-Statista-sm.png",
+        "type": "file",
+        "md5": "bda9f29820ae4dfe535ff29e4542db98"
+    },
+    {
+        "path": "/media/posts/9/responsive/Bild-Ben-Austellung-2-Statista-xl.png",
+        "type": "file",
+        "md5": "bda9f29820ae4dfe535ff29e4542db98"
+    },
+    {
+        "path": "/media/posts/9/responsive/Bild-Ben-Austellung-2-Statista-xs.png",
+        "type": "file",
+        "md5": "bda9f29820ae4dfe535ff29e4542db98"
+    },
+    {
+        "path": "robots.txt",
+        "type": "file",
+        "md5": "b6216d61c03e6ce0c9aea6ca7808f7ca"
+    },
+    {
+        "path": "tags",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/index.html",
+        "type": "file",
+        "md5": "9718c5233769226c1a3e32e53c5ab234"
+    }
+]

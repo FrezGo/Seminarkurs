@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Museum für Digitale Autonomie &amp; Netzkultur - Seminararbeit</title>
+    <meta name="description" content="Willkommen im virtuellen Rundgang unserer Ausstellung. Täglich hinterlassen wir im Internet Hunderte unsichtbare Datenspuren, oft freiwillig aus Bequemlichkeit, meistens jedoch&hellip;">
+    <meta name="generator" content="Publii Open-Source CMS for Static Site">
+    <link rel="canonical" href="./">
+    <link rel="preload" href="./assets/dynamic/fonts/lora/lora.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./assets/dynamic/fonts/lora/lora-italic.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="./assets/css/style.css?v=28a5eb87a5143db8fe2c1caca7e38a51">
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "./"
+        },
+        "headline": "Museum für Digitale Autonomie & Netzkultur",
+        "datePublished": "2026-06-14T15:23+02:00",
+        "dateModified": "2026-06-15T05:01+02:00",
+        "description": "Willkommen im virtuellen Rundgang unserer Ausstellung. Täglich hinterlassen wir im Internet Hunderte unsichtbare Datenspuren, oft freiwillig aus Bequemlichkeit, meistens jedoch&hellip;",
+        "author": {
+            "@type": "Person",
+            "name": "Frederick Berns",
+            "url": "./authors/frederick-berns/"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Frederick Berns"
+        }
+    }
+    </script>
+    <noscript>
+        <style>
+            img[loading] {
+                opacity: 1;
+            }
+        </style>
+    </noscript>
+
+    <!-- Custom CSS für das responsive Karten-Grid (Gekapselt, um Theme-Konflikte zu vermeiden) -->
+    <style>
+        .museum-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 15px;
+        }
+        
+        /* Grid-System: Passt sich der Bildschirmbreite flexibel an */
+        .museum-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        /* Die abgerundeten Karten */
+        .museum-card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+            min-height: 280px;
+        }
+
+        /* Premium-Effekt beim Drüberfahren mit der Maus */
+        .museum-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+            border-color: #cbd5e1;
+        }
+
+        /* Kleine Raumnummerierung als Deko */
+        .museum-card-badge {
+            display: inline-block;
+            background: #f1f5f9;
+            color: #475569;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            align-self: flex-start;
+        }
+
+        .museum-card-title {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+            color: #0f172a;
+            font-weight: bold;
+            line-height: 1.3;
+        }
+
+        .museum-card-desc {
+            color: #475569;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            flex-grow: 1; /* Schiebt den Button immer nach ganz unten */
+        }
+
+        /* Der interaktive Link-Button */
+        .museum-card-button {
+            display: inline-block;
+            background: #0f172a;
+            color: #ffffff !important;
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none !important;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-align: center;
+            transition: background 0.2s ease;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .museum-card-button:hover {
+            background: #334155;
+        }
+    </style>
+</head>
+<body class="page-template lines">
+    <div class="container lines lines--right">
+        <header class="header">
+            <a href="index.html" class="logo">Seminararbeit</a>
+        </header>
+        
+        <main class="main page">
+            <article class="content">
+                <header class="content__inner content__header">
+                    <h1 class="content__title">Museum für Digitale Autonomie &amp; Netzkultur</h1>
+                </header>
+                
+                <div class="content__inner">
+                    <div class="content__entry">
+                        <p style="font-size: 1.1rem; line-height: 1.6; color: #334155; margin-bottom: 30px;">
+                            Willkommen im virtuellen Rundgang unserer Ausstellung. Täglich hinterlassen wir im Internet Hunderte unsichtbare Datenspuren, oft freiwillig aus Bequemlichkeit, meistens jedoch unbemerkt und manipuliert durch clevere Design-Architekturen. Dieses Museum führt Sie durch die Geschichte, die Psychologie und die Politik der digitalen Überwachung – und zeigt Ihnen Wege auf, wie Sie die Kontrolle über Ihre Daten zurückgewinnen.
+                        </p>
+
+                        <!-- Das neu strukturierte, responsive Ausstellungs-Grid -->
+                        <div class="museum-grid">
+                            
+                            <!-- Raum 1: AGBs -->
+                            <div class="museum-card">
+                                <div>
+                                    <span class="museum-card-badge">RAUM 1</span>
+                                    <h3 class="museum-card-title">Das Kleingedruckte: AGBs &amp; Nutzungsbedingungen</h3>
+                                    <p class="museum-card-desc">
+                                        Wer liest heute noch Allgemeine Geschäftsbedingungen? Erleben Sie die Absurdität moderner Nutzungsverträge und wie wir im Alltag leichtfertig weitreichende Rechte an unserer Privatsphäre abtreten.
+                                    </p>
+                                </div>
+                                <a href="austellung-agbs.html" class="museum-card-button">Raum 1 betreten</a>
+                            </div>
+
+                            <!-- Raum 2: Cookies -->
+                            <div class="museum-card">
+                                <div>
+                                    <span class="museum-card-badge">RAUM 2</span>
+                                    <h3 class="museum-card-title">Cookies: Vom Gedächtnis zur Überwachung</h3>
+                                    <p class="museum-card-desc">
+                                        Erfahren Sie, wie eine kleine Textdatei, die dem Internet eigentlich nur ein Gedächtnis schenken sollte, von Werbenetzwerken wie DoubleClick zum mächtigen Werkzeug für Cross-Site-Tracking umfunktioniert wurde.
+                                    </p>
+                                </div>
+                                <a href="ausstellung-cookies.html" class="museum-card-button">Raum 2 betreten</a>
+                            </div>
+
+                            <!-- Raum 3: Dark Patterns -->
+                            <div class="museum-card">
+                                <div>
+                                    <span class="museum-card-badge">RAUM 3</span>
+                                    <h3 class="museum-card-title">Dark Patterns: Architekturen der Täuschung</h3>
+                                    <p class="museum-card-desc">
+                                        Betreten Sie den psychologischen Parcours der Manipulation. Wir analysieren Cookie-Banner an der Schnittstelle zur DSGVO und entlarven Taktiken wie das Roach Motel oder Confirmshaming.
+                                    </p>
+                                </div>
+                                <a href="ausstellung-dark-patterns.html" class="museum-card-button">Raum 3 betreten</a>
+                            </div>
+
+                            <!-- Raum 4: Der Wert unserer Daten -->
+                            <div class="museum-card">
+                                <div>
+                                    <span class="museum-card-badge">RAUM 4</span>
+                                    <h3 class="museum-card-title">Der Wert unserer Daten: Ware Mensch</h3>
+                                    <p class="museum-card-desc">
+                                        Wie viel ist Ihr digitales Profil wert? Analysieren Sie die Ökonomie des Überwachungskapitalismus und lernen Sie die datengetriebenen Geschäftsmodelle hinter scheinbar kostenlosen Diensten kennen.
+                                    </p>
+                                </div>
+                                <a href="austellung-daten-wert.html" class="museum-card-button">Raum 4 betreten</a>
+                            </div>
+
+                            <!-- Raum 5: Der digitale Fingerabdruck -->
+                            <div class="museum-card">
+                                <div>
+                                    <span class="museum-card-badge">RAUM 5</span>
+                                    <h3 class="museum-card-title">Browser-Fingerprinting: Unsichtbare Signaturen</h3>
+                                    <p class="museum-card-desc">
+                                        Selbst ohne Cookies hinterlassen wir Spuren. Entdecken Sie, wie Webseiten Sie anhand von installierten Schriftarten, Bildschirmauflösungen und Ihrer Hardware-Konfiguration eindeutig identifizieren.
+                                    </p>
+                                </div>
+                                <a href="ausstellung-online-fingerabdruck.html" class="museum-card-button">Raum 5 betreten</a>
+                            </div>
+
+                            <!-- Raum 6: Digitale Souveränität -->
+                            <div class="museum-card">
+                                <div>
+                                    <span class="museum-card-badge">RAUM 6</span>
+                                    <h3 class="museum-card-title">Digitale Souveränität: Wege aus der Abhängigkeit</h3>
+                                    <p class="museum-card-desc">
+                                        Lernen Sie das Prinzip „Reject Convenience“ kennen und entdecken Sie konkrete Werkzeuge wie Tracking-Blocker, DNS-Filter oder Self-Hosting, um die Kontrolle über Ihre Daten zurückzugewinnen.
+                                    </p>
+                                </div>
+                                <a href="ausstellung-digitale-souveraenitaet.html" class="museum-card-button">Raum 6 betreten</a>
+                            </div>
+
+                        </div> <!-- Ende museum-grid -->
+                    </div>
+                </div>
+            </article>
+        </main>
+        
+        <footer class="footer">
+            <div class="footer__left">
+                <div class="footer__copy">Powered by Publii</div>
+            </div>
+            <button onclick="backToTopFunction()" id="backToTop" class="footer__bttop" aria-label="Back to top" title="Back to top">
+                <svg><use xlink:href="./assets/svg/svg-map.svg#toparrow"/></svg>
+            </button>
+        </footer>
+    </div>
+
+    <script>
+        window.publiiThemeMenuConfig = {
+            mobileMenuMode: 'sidebar',
+            animationSpeed: 300,
+            submenuWidth: 'auto',
+            doubleClickTime: 500,
+            mobileMenuExpandableSubmenus: true,
+            relatedContainerForOverlayMenuSelector: '.navbar',
+        };
+    </script>
+    <script defer="defer" src="./assets/js/scripts.min.js?v=628f9b14187b480516b6c7f8be1e7585"></script>
+    <script>
+        function publiiDetectLoadedImages () {
+            var images = document.querySelectorAll('img[loading]:not(.is-loaded)');
+            for (var i = 0; i < images.length; i++) {
+                if (images[i].complete) {
+                    images[i].classList.add('is-loaded');
+                    images[i].parentNode.classList.remove('is-img-loading');
+                } else {
+                    images[i].addEventListener('load', function () {
+                        this.classList.add('is-loaded');
+                        this.parentNode.classList.remove('is-img-loading');
+                    }, false);
+                }
+            }
+        }
+        publiiDetectLoadedImages();
+    </script>
+</body>
+</html>
